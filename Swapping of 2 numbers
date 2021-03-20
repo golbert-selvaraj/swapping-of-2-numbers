@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{ int a=1, b=2 ;
+  printf ("SWAPPING OF 2 NUMBERS\n");
+  printf ("Taken as a=%d, b=%d\n",a,b);
+  a=a+b;//a=1+2=3
+  b=a-b;//b=3-2=1
+  a=a-b;//a=3-1=2
+  printf ("After swapping the numbers a=%d, b=%d",a,b);
+  return 0 ; }
